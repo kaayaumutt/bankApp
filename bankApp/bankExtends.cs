@@ -8,16 +8,16 @@ namespace bankApp
 {
     public class bankExtends : bankProcess
     {
-        //Crushing(ezme)
+        //Crushing
         public new void Welcome()
         {
             Console.WriteLine("Hoş geldin {0} {1} kimlik no'n:{2} bakiyen:{3} -- bankExtends", this.name, this.surName, this.tcNo, this.balance);
         }
 
-        //Method Overloading(aşırı yükleme)
+        //Method Overloading
         public void Welcome(bool overLoad)
         {
-            Console.WriteLine("Method Overloading(Bu fonksiyona aşırı yüklendin!)!");
+            Console.WriteLine("Method Overloading(Bu fonksiyona aşırı yüklendin!!");
         }
 
         public void extendsConstants()
